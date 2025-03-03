@@ -8,9 +8,9 @@ sleep 2
 
 echo "Welcome $name, please select your starting class:  
 
-1) Samurai 
+1) Paladin 
 2) Prisoner 
-3) Prophet" 
+3) Seer" 
 
 read class 
 
@@ -29,7 +29,7 @@ case $class in
         ;;
 
     3) 
-        type="Prophet"
+        type="Seer"
         hp=25
         attack=12
         ;;
