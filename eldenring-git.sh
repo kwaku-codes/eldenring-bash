@@ -35,6 +35,8 @@ case $class in
         ;;
 esac
 
+sleep 2
+
 echo "You have chosen $type class. Your HP is $hp and your attack is $attack." 
 
 
